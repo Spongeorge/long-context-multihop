@@ -1,0 +1,27 @@
+tqdm
+xopen
+pydantic
+pytest
+loralib
+datasets
+sentencepiece
+
+# For running MPT locally
+transformers
+torch
+bitsandbytes
+einops
+flash-attn
+triton-pre-mlir@git+https://github.com/vchiley/triton.git@triton_pre_mlir#subdirectory=python
+accelerate
+# For running LLaMA-2 locally
+vllm==v0.2.1.post1
+
+# Checks style, syntax, and other useful errors.
+flake8==5.0.4
+
+# Automatic code formatting
+black==22.10.0
+
+# For creating git precommit hooks
+pre-commit
