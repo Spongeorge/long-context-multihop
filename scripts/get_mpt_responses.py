@@ -61,8 +61,8 @@ def main(
         load_in_8bit=True,
     )
 
-    if num_gpus == 1:
-        model = model.to(device)
+    #if num_gpus == 1:
+    #    model = model.to(device)
 
     print(model)
 
@@ -139,7 +139,7 @@ if __name__ == "__main__":
         "--max_new_tokens",
         default=256,
     )
-    parser.add_argument("--batch-size", help="Batch size use in generation", type=int, default=8)
+    parser.add_argument("--batch-size", help="Batch size use in generation", type=int, default=4)
 
     parser.add_argument("--num-gpus", help="Number of GPUs to use", type=int, default=1)
     parser.add_argument(
