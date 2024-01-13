@@ -1,0 +1,49 @@
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+### Instruction:
+Write a high-quality answer for the given question using only the provided search results (some of which might be irrelevant). Give step by step reasoning, referring to the provided documents. Start your reasoning with 'Reasoning:' and your final answer with 'Answer:'.
+
+Document [1](Title: Scattering Dad) Scattering Dad is a 1998 American made-for-television drama film directed by Joan Tewkesbury and starring Olympia Dukakis and Andy Griffith. It aired on CBS on January 4, 1998.
+Document [2](Title: Claudia Mori) Claudia Mori (born Claudia Moroni, Rome, 12 February 1944), is an Italian actress, singer, television producer, and wife of the singer Adriano Celentano.
+Document [3](Title: From This Day Forward) From This Day Forward is a 1946 American drama film directed by John Berry, starring Joan Fontaine and Mark Stevens.
+Document [4](Title: Joan the Woman) Joan the Woman is a 1916 American epic silent drama film directed by Cecil B. DeMille and starring Geraldine Farrar as Joan of Arc. The film premiered on Christmas Day in 1916. This was DeMille's first historical drama. The screenplay is based on Friedrich Schiller's 1801 play "Die Jungfrau von Orelans" ("The Maid of Orleans"). This film was considered to be the "first cinematic spectacle about Joan of Arc."
+Document [5](Title: Joan Lui) Joan Lui (also known as "Joan Lui - Ma un giorno nel paese arrivo io di lunedì") is a 1985 Italian musical-comedy film written, directed and starred by Adriano Celentano. It is the last of the four films written and directed by Celentano.
+
+Question: Who is married to the director of Joan Lui?
+### Response:
+Reasoning: To answer the question we must first figure out who the director of Joan Lui is. According to Document [5](Title: Joan Lui), Joan Lui was "directed and starred by Adriano Celentano". Now, we can find our who is married to Adriano Celentano. According to Document [2](Title: Claudia Mori), Claudia Mori is the "wife of the singer Adriano Celentano".
+Answer: Claudia Mori
+### Instruction:
+Write a high-quality answer for the given question using only the provided search results (some of which might be irrelevant). Give step by step reasoning, referring to the provided documents. Start your reasoning with 'Reasoning:' and your final answer with 'Answer:'.
+
+Document [1](Title: Fairgarden, Tennessee) Fairgarden is a census-designated place in Sevier County, Tennessee, United States. Its population was 529 as of the 2010 census.
+Document [2](Title: Cross Anchor, South Carolina) Cross Anchor is a Census-designated place in Spartanburg County, South Carolina, United States. The population in the 2010 United States Census was 126.
+Document [3](Title: McKinney Acres, Texas) McKinney Acres is a census-designated place (CDP) in Andrews County, Texas, United States. The population was 815 at the 2010 census. This was a new CDP for the 2010 census.
+Document [4](Title: Primitive Technology) Primitive Technology is a YouTube channel run by and starring John Plant. Based in Far North Queensland, Australia, the series demonstrates the process of making tools and buildings using only materials found in the wild. Created in May 2015, the channel has gained over 8 million subscribers and over 560 million views as of May 2018.
+Document [5](Title: John Plant (ethnologist)) John Plant (born 1954 in New Haven, Connecticut) is an American ethnologist, biologist and expert on the culture of the Plains Indians.
+
+
+Question: According to the 2010 U.S. Census, what was the population of the birthplace of the guy in the primitive technology videos?
+### Response:
+Reasoning: To answer the question we must first figure out who the guy in the primitive technology videos is. According to Document [4](Title: Primitive Technology) Primitive Technology is "run by and starring John Plant". Next, we must find the birthplace of John Plant. According to Document [5](Title: John Plant (ethnologist)), John Plant was born in New Haven, Connecticut. Finally, we can find the population of New Haven, Connecticut. According to Document [9](Title: New Haven, Connecticut) New Haven had a population of 129,779 people as of the 2010 United States Census.
+Answer: 129,779
+### Instruction:
+Write a high-quality answer for the given question using only the provided search results (some of which might be irrelevant). Give step by step reasoning, referring to the provided documents. Start your reasoning with 'Reasoning:' and your final answer with 'Answer:'.
+
+Document [1](Title: Philosophy of language) In the early 19th century, the Danish philosopher Søren Kierkegaard insisted that language ought to play a larger role in Western philosophy. He argues that philosophy has not sufficiently focused on the role language plays in cognition and that future philosophy ought to proceed with a conscious focus on language:
+Document [2](Title: Buddhism) Mahayana Buddhism received significant theoretical grounding from Nagarjuna (perhaps c. 150–250 CE), arguably the most influential scholar within the Mahayana tradition. Nagarjuna's primary contribution to Buddhist philosophy was the systematic exposition of the concept of śūnyatā, or "emptiness", widely attested in the Prajñāpāramitā sutras that emerged in his era. The concept of emptiness brings together other key Buddhist doctrines, particularly anatta and dependent origination, to refute the metaphysics of Sarvastivada and Sautrantika (extinct non-Mahayana schools). For Nagarjuna, it is not merely sentient beings that are empty of ātman; all phenomena (dharmas) are without any svabhava (literally "own-nature" or "self-nature"), and thus without any underlying essence; they are "empty" of being independent; thus the heterodox theories of svabhava circulating at the time were refuted on the basis of the doctrines of early Buddhism. Nagarjuna's school of thought is known as the Mādhyamaka. Some of the writings attributed to Nagarjuna made explicit references to Mahayana texts, but his philosophy was argued within the parameters set out by the agamas. He may have arrived at his positions from a desire to achieve a consistent exegesis of the Buddha's doctrine as recorded in the Canon. In the eyes of Nagarjuna the Buddha was not merely a forerunner, but the very founder of the Mādhyamaka system.
+Document [3](Title: Søren Kierkegaard) Kierkegaard was born to an affluent family in Copenhagen. His mother, Ane Sørensdatter Lund Kierkegaard, had served as a maid in the household before marrying his father, Michael Pedersen Kierkegaard. She was an unassuming figure: quiet, plain, and not formally educated, but Henriette Lund, her granddaughter, wrote that she "wielded the sceptre with joy and protected [Søren and Peter] like a hen protecting her chicks". She also wielded influence on her children so that later Peter said that his brother preserved many of their mother's words in his writings. His father, on the other hand, was a well-to-do wool merchant from Jutland. He was a "very stern man, to all appearances dry and prosaic, but under his 'rustic cloak' demeanor he concealed an active imagination which not even his great age could blunt". He was also interested in philosophy and often hosted intellectuals at his home. The young Kierkegaard read the philosophy of Christian Wolff. He also preferred the comedies of Ludvig Holberg, the writings of Georg Johann Hamann, Gotthold Ephraim Lessing, Edward Young, and Plato, especially those referring to Socrates.
+Document [4](Title: Egalitarianism) Egalitarianism (from French égal, meaning 'equal') -- or equalitarianism -- is a school of thought that prioritizes equality for all people. According to the Stanford Encyclopedia of Philosophy, Egalitarian doctrines maintain that all humans are equal in fundamental worth or social status. According to the Merriam - Webster Dictionary, the term has two distinct definitions in modern English: either as a political doctrine that all people should be treated as equals and have the same political, economic, social and civil rights; or as a social philosophy advocating the removal of economic inequalities among people, economic egalitarianism, or the decentralization of power. Some sources define egalitarianism as the point of view that equality reflects the natural state of humanity.
+Document [5](Title: Vincenzo Botta) Vincenzo Botta (November 11, 1818 Cavallermaggiore - October 5, 1894 New York City) was an Italian-born politician and professor of philosophy, and later, in the United States, of Italian language and literature.
+
+Question: What city is the person who broadened the doctrine of philosophy of language from?
+### Response:
+Reasoning: First we must figure out who broadened the doctrine of philosphy of language. According to Document [1](Title: Philosophy of language), the Danish philosopher Søren Kierkegaard insisted that language ought to play a larger role in Western philosophy. Next we can find which city Søren Kierkegaard was born in. Document [3](Title: Søren Kierkegaard) Kierkegaard was born to an affluent family in Copenhagen.
+Answer: Copenhagen
+### Instruction:
+Write a high-quality answer for the given question using only the provided search results (some of which might be irrelevant). Give step by step reasoning, referring to the provided documents. Start your reasoning with 'Reasoning:' and your final answer with 'Answer:'.
+
+{search_results}
+
+Question: {question}
+### Response:
+Reasoning:

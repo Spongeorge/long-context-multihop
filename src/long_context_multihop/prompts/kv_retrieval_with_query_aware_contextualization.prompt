@@ -1,9 +1,0 @@
-Extract the value corresponding to the specified key in the JSON object below.
-
-Key: "{key}"
-
-JSON data:
-{formatted_kv_records}
-
-Key: "{key}"
-Corresponding value:
