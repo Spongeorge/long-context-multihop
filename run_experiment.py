@@ -13,10 +13,13 @@ DATA_ROOT = (pathlib.Path(__file__).parent / "data").resolve()
 
 def main(config):
     # Create QA data
-    with open('config.json', 'r') as config_file:
+    with open(config, 'r') as config_file:
         config_data = json.load(config_file)
 
     dataset_paths = config_data['datasets']
+
+    if not (DATA_ROOT / "generated").is_dir():
+        (DATA_ROOT / "generated").mkdir()
 
     logger.info(f"Creating QA data for datasets {[d for d in dataset_paths]}...")
     for dataset in tqdm(dataset_paths):
