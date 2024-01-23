@@ -2,7 +2,7 @@
   "datasets": {
     "2wiki": {
       "file_name" : "2wiki_2ndhalfvalid_adtldocs.json",
-      "prompt_file": "qa_standard_instruct.prompt",
+      "prompt_file": "qa_3shot_cot_instruct.prompt",
       "doctype": "Document",
       "n_hops": [2, 4, "closedbook"],
       "positions": [

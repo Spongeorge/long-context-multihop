@@ -68,6 +68,12 @@ def main(
 
     # Iterate over input files and generate responses
     for path in input_paths:
+        logger.info(f"Running {path}")
+        output_path = output_dir / f"{model_name.split('/')[-1]}_{pathlib.Path(path).name}"
+
+        if pathlib.Path(output_path).exists():
+            logger.warning(f"File {output_path} already exists. Skipping.")
+            continue
 
         with xopen(path) as fin:
             prompts = fin.readlines()
@@ -103,10 +109,9 @@ def main(
                     new_text = text[prompt_length:]
                     responses.append(new_text)
 
-        output_path = output_dir / f"{model_name}_{pathlib.Path(path).name}"
-
-        with xopen(output_path, "w") as f:
+        with open(output_path, "w") as f:
             f.write(json.dumps(responses))
+
 
 
 

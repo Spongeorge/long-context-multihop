@@ -1,0 +1,24 @@
+{
+  "datasets": {
+    "hotpot": {
+      "file_name" : "hotpot_2ndhalfvalid.json",
+      "prompt_file": "qa_standard_instruct.prompt",
+      "doctype": "Document",
+      "n_hops": [2, "closedbook"],
+      "positions": [
+        [[0,4], [4,9], [9,14], [14,19]]
+      ]
+    },
+    "musique": {
+      "file_name" : "musique_2ndhalfvalid.json",
+      "prompt_file": "qa_standard_instruct.prompt",
+      "doctype": "Document",
+      "n_hops": [2, 3, 4, "closedbook"],
+      "positions": [
+        [[0,1], [4,5],[9,10],[14,15], [18,19], [0,4], [4,9], [9,14], [14,19]],
+        [[0, 1, 2], [4,5,6], [9,10,11], [14,15,16], [17,18,19], [0,4,9], [4,9,14], [9, 14, 19]],
+        [[0,1,2,3], [4,5,6,7], [9,10,11,12], [14,15,16,17], [16,17,18,19], [0,2,4,6], [4,6,8,10], [9,11,13,15], [13,15,17,19]]
+      ]
+    }
+  }
+}

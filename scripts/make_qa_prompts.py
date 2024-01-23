@@ -28,12 +28,15 @@ def main(input_path, gold_indices, output_path, doctype, prompt_filename):
 
     num_output_examples = 0
 
-    with xopen(input_path) as fin, xopen(output_path, "w") as fout:
+    with xopen(input_path) as fin, xopen(output_path, "w", encoding='utf-8') as fout:
 
         data = json.load(fin)
 
-        with open(PROMPTS_ROOT / prompt_filename) as f:
+        with open(PROMPTS_ROOT / prompt_filename, encoding='utf-8') as f:
             prompt_template = f.read().rstrip("\n")
+
+        if "standard" not in prompt_filename:
+            output_path = pathlib.Path(str(output_path).split(".")[0] + "_" + prompt_filename.split(".")[0] + ".json")
 
         if prompt_filename == "qa_closedbook.prompt":
             for i in range(len(data['question'])):
@@ -152,7 +155,10 @@ if __name__ == "__main__":
 
 
         if args.output is None:
-            args.output = DATA_ROOT / f"generated/{args.dataset}_{args.n_hops}hop_{'_'.join([str(i) for i in args.gold_indices])}.json"
+            dataset_name = args.dataset
+            if 'standard' not in args.prompt:
+                dataset_name += "_" + args.prompt.split(".")[0]
+            args.output = DATA_ROOT / f"generated/{dataset_name}_{args.n_hops}hop_{'_'.join([str(i) for i in args.gold_indices])}.json"
     else:
         if args.output is None:
             args.output = DATA_ROOT / f"generated/{args.dataset}_closedbook.json"
